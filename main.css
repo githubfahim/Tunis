@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* This is Universal css start  */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  color: aliceblue;
+  font-size: 10px;
+}
+
+body{
+  background-color: #111;
+}
+
+.yellow-color{
+  color: #ffb400;
+}
+
+.container{
+  width: 1150px;
+  margin: auto;
+}
+
+/* This is back-sid yellow box start */
+.yellow-black-box{
+  height: 200vh;
+  width: 40vw;
+  background-color: #ffb400;
+  transform: rotate(-11deg);
+  left: -22%;
+  top: -50%;
+  position: fixed;
+}
+
+/* This is parent box start  */
+.parent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.gap{
+  margin: 0px 50px;
+}
+
+.big-img{
+  z-index: 222;
+}
+
+.big-img img{
+  height: 90vh;
+  border-radius: 20px;
+  box-shadow: 0 0 7px rgba(0,0,0,.9);
+}
+
+.middil span{
+  height: 5px;
+  width: 40px;
+  background-color: #ffb400;
+  display: block;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -75px;
+  border-radius: 10px;
+}
+
+.middil h2{
+  font-size: 5rem;
+  line-height: 60px;
+}
+
+.middil p{
+  margin: 20px -60px 0px;
+  font-size: 1.6rem;
+  width: 650px;
+  line-height: 35px;
+}
+
+.middil a{
+  color: #fff;
+  font-size: 1.6rem;
+  text-decoration: none;
+  margin-top: 50px;
+  border: 2px solid #ffb400;
+  padding: 18px 100px 18px 34px;
+  border-radius: 40px;
+  position: absolute;
+  margin-left: -60px;
+  font-weight: 700;
+  transition: .3s linear;
+  letter-spacing: .5px;
+}
+
+.middil a:hover{
+  background-color: #ffb400;
+  color: #000;
+}
+
+.middil i{
+  margin-left: 154px;
+  position: absolute;
+  margin-top: 50px;
+  font-size: 3.6rem;
+  background-color: #ffb400;
+  color: #fff;
+  border-radius: 50%;
+  padding: 13px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+/* This is nav-bar Css start  */
+
+.nav-bar ul{
+  list-style: none;
+}
+
+.nav-bar ul li{
+  margin: 45px 0px;
+}
+
+.nav-bar ul li a{
+  text-decoration: none;
+}
+
+.nav-bar ul li a i{
+  color: #eee;
+  font-size: 2.2rem;
+  background-color: #ffffff37;
+  padding: 13px;
+  border-radius: 50%;
+  transition: .3s linear;
+}
+
+.nav-bar ul li a i:hover{
+  border-radius: 5px 30px 30px 5px;
+  background-color: #ffb400;
+}
+
+.nav-bar ul li p{
+  font-size: 1.6rem;
+  position: absolute;
+  margin-left: -160px;
+  margin-top: -12px;
+  background-color: #ffb400;
+  padding: 11px;
+  width: 140px;
+  border-radius: 30px 0px 0px 30px;
+  font-weight: 600;
+  text-align: center;
+  opacity: 0;
+}
+
+/* This is Dark-mood css start  */
+.dark-mood i{
+  position: absolute;
+  top: -25px;
+  right: 45px;
+  font-size: 2.6rem;
+  background-color: #ffffff37;
+}
+
+.nav-txt{
+  color: #fff;
+  opacity: 1;
+}
+
+/* This about  css start  */
+.headline-about{
+  text-align: center;
+  position: relative;
+}
+
+.headline-about .hed h1{
+  font-size: 12rem;
+  opacity: .1;
+  letter-spacing: 15px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.headline-about .hed h2{
+  font-size: 6rem;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 45px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.headline-about .hed h2 span{
+  color: #ffb400;
+}
+
+.section-about-2 h3{
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.txt-list-info{
+  display: flex;
+}
+
+.txt-list-info ul li{
+  list-style: none;
+  font-size: 1.6rem;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+.txt-list-info ul{
+  width: 300px;
+}
+
+.txt-list-info ul span{
+  color: #ffffff8f;
+  font-weight: normal;
+}
+
+.txt-list-info ul .green{
+  color: #00ff3c;
+  font-weight: 600;
+}
